@@ -48,14 +48,6 @@ from matplotlib import pyplot as plt
 
 # # Your turn!
 
-# In[1]:
-
-
-get_ipython().magic('matplotlib inline')
-import numpy as np
-from matplotlib import pyplot as plt
-
-
 # In[2]:
 
 
@@ -183,6 +175,7 @@ print("Everything died {} times out of {} or {:.1f}%".format(dead_everything, ru
 print("Foxes died {} times out of {} or {:.1f}%".format(dead_foxes, runs, 100*dead_foxes/runs))
 
 
+
 # In[6]:
 
 
@@ -220,4 +213,5 @@ plt.axvline(mean_times[-1],color='r')
 plt.axhline(100,linestyle=':')
 plt.axhline(mean_foxes[-1],color='k')
 plt.show()
+
 
